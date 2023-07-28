@@ -1,0 +1,38 @@
+Initializing the constructor:
+-------- PostgreSQL JDBC Connection Testing -----------
+PostgreSQL JDBC Driver Registered!
+
+Connecting to database:
+URL: jdbc:postgresql://db:5432/anjilag
+Username: 
+Password: 
+Connection Successful
+
+Testing insertCountry:
+Sucessfully inserted into country
+
+Testing getCountriesNextToOceanCount:
+total_cid = 9 where oid = 1001
+
+Testing getOceanInfo:
+1001:Atlantic:28344
+
+Testing chgHDI:
+Sucessfully changed HDI
+
+Testing deleteNeighbour:
+Successfully deleted neighbour
+
+Testing listCountryLanguages:
+601:English:29061458
+602:French:19248498
+603:Spanish:7171009
+
+Testing updateHeight:
+Successfully updated height
+
+Testing updateDB:
+Successfully updated database
+
+Disconnecting from database:
+Succesfully disconnected from database
